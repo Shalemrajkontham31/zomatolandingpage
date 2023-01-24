@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- zomato logo in the tab -->
+    <link rel="icon" type="image/x-icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Zomato_logo.png/220px-Zomato_logo.png" />
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- poppins font by google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Zomato</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="hero-banner">
+            <div class="nav">
+                <div class="nav-app">
+                    <a href="#">Get app</a>
+                </div>
+                <div class="nav-content">
+                    <a href="#">Investor relation</a>
+                    <a href="#">Add Restaurant</a>
+                    <a href="#">Log in</a>
+                    <a href="#">Sign up</a>
+                </div>
+            </div>
+            <div class="hero-logo-section">
+                <div class="hero-logo">
+                    <img id="logo" src="./images/heroSectionLogo.png" alt="Zomato logo">
+                    <h1>Discover the best food & drinks in Mumbai</h1>
+                </div>
+            </div>
+            <div class="hero-input">
+                <div class="hero-input-location">
+                    <div class="hero-location">
+                        <div class="location-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="input-location">
+                            <select name="places" id="location">
+                                <option value="Mumbai">Mumbai</option>
+                                <option value="Hyderabad">Hyderabad</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-search">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="search-input">
+                        <input type="text" placeholder="Search">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-container">
+            <div class="cards">
+                <div class="card-1">
+                    <img src="./images/item1.png" alt="item1" class="card-img">
+                    <div class="card-content">
+                        <h1>Order online</h1>
+                        <h3>Stay home & order at your doorstep</h3>
+                    </div>
+                </div>
+                <div class="card-2">
+                    <img src="./images/item2.png" alt="" class="card-img">
+                    <div class="card-content">
+                        <h1>Dining</h1>
+                        <h3>View the city favourite dining</h3>
+                    </div>
+                </div>
+                <div class="card-3">
+                    <img src="./images/item3.png" alt="" class="card-img">
+                    <div class="card-content">
+                        <h1>Nightlife & Clubs</h1>
+                        <h3>Explore the city's top life</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="collection-container">
+                <div class="collection-header">
+                    <h1>Collections</h1>
+                    <h3>Explore curated lists of top restaurants, cafes, pubs, and bars in Mumbai, based on trends</h3>
+                </div>
+                <div class="collections-cards">
+                    <div class="collection-1">
+                        <h3>Live Cricket</h3>
+                        <a href="#">Click here</a>
+                    </div>
+                    <div class="collection-2">
+                        <h3>New outlets</h3>
+                        <a href="#">Visit</a>
+                    </div>
+                    <div class="collection-3">
+                        <h3>New restraunt</h3>
+                        <a href="#">Nearby Outlets</a>
+                    </div>
+                    <div class="collection-4">
+                        <h3>Top 10 Places</h3>
+                        <a href="#">10 Places</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="getapp">
+                <div class="left">
+                    <img class="left-img" src="./images/mobileBanner.png" alt="mobileBanner" width="300" height="300">
+                </div>
+                <div class="right">
+                    <div class="right-header">
+                        <h2 class="right-h">Get the Zomato App</h2>
+                        <p class="right-p">We will send you a link, open it on your phone to download the app</p>
+                    </div>
+                    <div class="right-radiobox">
+                        <div id="Email">
+                            <input type="radio" name="input">
+                            <label for="Email">Email</label>
+                        </div>
+                        <div id="phone">
+                            <input type="radio" name="input" id="phone">
+                            <label for="phone">Phone</label>
+                        </div>
+                    </div>
+                    <div class="right-inputbox">
+                        <input type="text" placeholder="Email" id="inputbox">
+                        <button id="right-btn">Share</button>
+                    </div>
+                    <div class="right-footer">
+                        <h3>Download From</h3>
+                        <div class="right-footer-img">
+                            <a href="#"><img src="./images/playStore.png" alt="playstore" id="playstore" width="120"
+                                    height="40"></a>
+                            <a href="#"><img src="./images/appleStore.png" alt="applestore" id="applestore" width="120"
+                                    height="40"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+</body>
+
+</html>

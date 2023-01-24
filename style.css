@@ -1,0 +1,307 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.container{
+    background-color: #F5F5F5F5;
+}
+.hero-banner{
+    background-image: url(./images/heroSectionBackground.png);
+    background-size: cover;
+    width: 100vw;
+    height: 65vh;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-app a{
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+.nav-content a{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.hero-logo{
+    margin: 60px 0px 60px 0px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.hero-logo h1{
+    margin: 20px;
+}
+
+#logo{
+    width: 20%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.hero-input{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+    background-color: white;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: content-box;
+    padding: 10px;
+    border-radius: 10px;
+}
+.hero-location{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.hero-search{
+    display: flex;
+    gap: 2rem;
+    background-color: white;
+    padding: 10px;
+}
+.location-icon{
+    color: red;
+}
+#location{
+    width: 10vw;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+.search-input input{
+    width: 20vw;
+    outline: none;
+    border: none;
+}
+.hero-location{
+    background-color: white;
+    padding: 10px;
+    border-right: 2px solid #191919;
+    border-radius: 3px;
+
+}
+.card-container{
+    width: max-content;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem
+
+
+}
+.cards{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: max-content;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-1, .card-2, .card-3{
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 10px;
+    width: min-content;
+    
+}
+.card-img{
+    width: 25vw;
+    height: 25vh;
+    border-radius: 10px 10px 0px 0px;
+}
+.card-content{
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-size: small;
+    font-weight: 100;
+}
+.collection-container{
+    padding: 5px;
+    margin-bottom: 4rem;
+}
+.collection-header{
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    margin-bottom: 2rem;
+}
+.collection-header, h1, h3{
+    font-weight: 100;
+}
+.collection-1{
+    height: 50vh;
+    width: 25%;
+    border: 1px solid rgb(232, 232, 232);
+    color: white;
+    background-image: url(./images/collection1.jpg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    padding: 0.8rem;
+}
+.collection-2{
+    height: 50vh;
+    width: 25%;
+    border: 1px solid rgb(232, 232, 232);
+    color: white;
+    background-image: url(./images/collection2.jpg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    padding: 0.8rem;
+}
+.collection-3{
+    height: 50vh;
+    width: 25%;
+    border: 1px solid rgb(232, 232, 232);
+    color: white;
+    background-image: url(./images/collection3.jpg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    padding: 0.8rem;
+}
+.collection-4{
+    height: 50vh;
+    width: 25%;
+    border: 1px solid rgb(232, 232, 232);
+    color: white;
+    background-image: url(./images/collection4.jpg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    padding: 0.8rem;
+}
+.collections-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+
+}
+.collection-1 a, .collection-2 a, .collection-3 a, .collection-4 a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 85%;
+}
+.collection-1 h3, .collection-2 h3, .collection-3 h3, .collection-4 h3{
+    position: relative;
+    top: 85%;
+}
+.hero-places-container{
+    margin-top: 4rem;
+}
+.hero-place-header{
+    font-family: 'Poppins', sans-serif;
+    font-size: larger
+}
+.getapp{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    background-color: #f8efef;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-img{
+    margin: 4rem 0rem 4rem 0rem;
+}
+.right{
+    box-sizing: content-box;
+    padding-left: 10px;
+}
+.right-header{
+    font-family: 'Poppins', sans-serif;
+    margin: 4rem 0rem 2rem 0rem;
+    
+}
+.right-p{
+    margin-top: 2rem;
+}
+.right-h{
+    font-size: 2rem;
+    font-weight: 200;
+
+}
+.right-radiobox{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 2rem;
+    display: flex;
+}
+.right-inputbox{
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+}
+#Email{
+    margin-right: 2rem;
+    font-size: larger;
+    font-weight: 100;
+}
+#phone{
+    font-size: larger;
+    font-weight: 100;
+}
+#inputbox{
+    width: 20rem;
+    height: 3rem;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 0.1rem solid rgb(207, 207, 207);
+}
+#right-btn{
+    height: 3rem;
+    width: 10rem;
+    background-color: rgb(239, 79, 95);
+    border: rgb(239, 79, 95);
+    color: white;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+
+}
+.right-footer{
+    margin: 2rem 0rem 0rem 0rem;
+    font-family: 'Poppins', sans-serif;
+    color: dimgrey;
+    font-size: small;
+}
+.right-footer-img{
+    margin: 2rem 0rem 2rem 0rem;
+
+}
+#playstore{
+    margin-right: 1rem;
+}
